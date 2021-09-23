@@ -31,7 +31,7 @@ public class EchoServer {
             return;
         }
         int port = Integer.parseInt(args[0]);*/
-        int port = 12345;
+        int port = 12346;
         new EchoServer(port).start();
     }
 

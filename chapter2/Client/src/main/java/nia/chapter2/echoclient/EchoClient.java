@@ -56,7 +56,7 @@ public class EchoClient {
         final String host = args[0];
         final int port = Integer.parseInt(args[1]);*/
         final String host = "127.0.0.1";
-        final int port = 12345;
+        final int port = 12346;
         new EchoClient(host, port).start();
     }
 }
